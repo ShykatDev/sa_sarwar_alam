@@ -1,0 +1,168 @@
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;500;700;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary__color: #ffffff;
+  // --secondary__color: #ffa25b;
+  // --secondary__color: #ff700e;
+  --secondary__color: #5ef27d;
+  // --gradient: #f7ddcc6b;
+  --gradient: #cdf7cc86;
+  --pera: rgb(68, 68, 68);
+  --title: rgb(20, 20, 20);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: var(--title);
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 6rem 22rem 0rem 22rem;
+
+  @media only screen and (max-width: 1460px) {
+    padding: 5rem 13rem 2rem 13rem;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    padding: 2rem 10rem;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 5rem 10rem;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 4rem 3.2rem;
+  }
+  @media only screen and (max-width: 575px) {
+    padding: 3rem 2rem;
+  }
+}
+
+ion-icon {
+  font-size: 9rem;
+  --ionicon-stroke-width: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    font-size: 9.5rem;
+  }
+
+  @media only screen and (max-width: 575px) {
+    font-size: 7rem;
+
+    &:hover {
+      font-size: 7.5rem;
+    }
+  }
+}
+
+span {
+  color: var(--secondary__color);
+  font-weight: 600 !important;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.8rem;
+
+  @media only screen and (max-width: 1199px) {
+  }
+  @media only screen and (max-width: 991px) {
+  }
+  @media only screen and (max-width: 767px) {
+  }
+  @media only screen and (max-width: 575px) {
+    font-size: 2.3rem;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--pera);
+}
+
+.extra__info span {
+  color: var(--title) !important;
+}
+.link--btn {
+  padding: 1rem 2.5rem;
+  background: var(--secondary__color);
+  transition: all 0.3s ease;
+  &:hover {
+    border: 1px solid var(--secondary__color);
+    background: none;
+  }
+}
+
+button {
+  outline: none;
+  border: 1px solid transparent;
+  background: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.footerCopy {
+  position: fixed;
+  bottom: 3rem;
+  left: 6.7%;
+  font-size: smaller;
+
+  @media only screen and (max-width: 1199px) {
+    left: 3%;
+  }
+  @media only screen and (max-width: 991px) {
+    left: 6%;
+  }
+  @media only screen and (max-width: 767px) {
+    display: none;
+  }
+  @media only screen and (max-width: 575px) {
+    display: none;
+  }
+}
+
+@import "./navbar";
+@import "./home";
+@import "./social";
+@import "./about";
+@import "./extrabout";
+@import "./education";
+@import "./globalexp";
+@import "./galary";
+@import "./showcasephotos";
+@import "./showcasevideos";
+@import "./showcasenews";
+@import "./testimonials";
+@import "./testimonialitem";
+@import "./blogs";
+@import "./blogItem";
+@import "./contact";
+@import "../SubStyles/allphotos";
+@import "../SubStyles/allvidoes";
+@import "../SubStyles/allnews";
+@import "../SubStyles/singleP";
+@import "../SubStyles/allblogs";
+@import "./singleblog";
+@import "./singleNews";
+@import "./seminar";

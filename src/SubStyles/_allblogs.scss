@@ -1,0 +1,14 @@
+.allBlogs {
+  h1 {
+    margin-bottom: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+  }
+}
+
+.all--blogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}

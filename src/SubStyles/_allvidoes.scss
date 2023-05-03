@@ -1,0 +1,15 @@
+.allVideos{
+    h1{
+        margin-bottom: 4rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+}
+
+.all--videos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 1.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

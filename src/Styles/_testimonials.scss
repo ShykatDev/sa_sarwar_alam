@@ -1,0 +1,91 @@
+.testimonalSec {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, var(--gradient), white);
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .section--det {
+      width: 40%;
+
+      .quote {
+        margin-bottom: 21rem;
+        font-size: 5rem;
+        color: var(--secondary__color);
+      }
+    }
+  }
+
+  .test--carousel {
+    width: 30%;
+  }
+
+  @media only screen and (max-width: 1199px) {
+  }
+  @media only screen and (max-width: 991px) {
+    .container {
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .section--det {
+        width: 100%;
+        margin-bottom: 7rem;
+
+        .quote {
+          margin-bottom: 3rem;
+          font-size: 4rem;
+        }
+      }
+      .test--carousel {
+        width: 100%;
+        border-top: 1px solid #000;
+        padding-top: 2rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .section--det {
+        width: 100%;
+        margin-bottom: 7rem;
+
+        .quote {
+          margin-bottom: 3rem;
+          font-size: 4rem;
+        }
+      }
+      .test--carousel {
+        width: 100%;
+        border-top: 1px solid #000;
+        padding-top: 2rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .container {
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .section--det {
+        width: 100%;
+        margin-bottom: 7rem;
+
+        .quote {
+          margin-bottom: 3rem;
+          font-size: 4rem;
+        }
+      }
+      .test--carousel {
+        width: 100%;
+        border-top: 1px solid #000;
+        padding-top: 2rem;
+      }
+    }
+  }
+}

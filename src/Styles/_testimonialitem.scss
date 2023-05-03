@@ -1,0 +1,34 @@
+.testimonal--item{
+    p{
+        font-size: 1rem;
+        color: var(--title);
+        margin-bottom: 5rem;
+    }
+    h2{
+        margin-bottom: 1rem;
+    }
+    .client{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        img{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 1.2rem;
+        }
+    }
+    @media only screen and (max-width: 1199px) {
+    }
+    @media only screen and (max-width: 991px) {
+    }
+    @media only screen and (max-width: 767px) {
+    }
+    @media only screen and (max-width: 575px) {
+        .testimonal--item{
+            border-top: 1px solid rgb(68, 68, 68);
+        }
+    }
+}

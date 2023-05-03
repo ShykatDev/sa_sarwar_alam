@@ -1,0 +1,69 @@
+.seminar {
+  width: 100%;
+  height: auto;
+
+  .marginTop {
+    width: 100%;
+    height: 10vh;
+    background: #8b3c00;
+  }
+
+  .header {
+    width: 100%;
+    height: 40vh;
+    background: url("../Assets/seminar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      font-size: 4rem;
+    }
+    p {
+      width: 50%;
+      text-align: center;
+      margin-top: 1rem;
+      color: wheat;
+    }
+  }
+
+  .container {
+    p {
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+
+    .img-gal {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 1rem;
+      margin-top: 3rem;
+
+      img {
+        width: 33%;
+        height: 23vh;
+        object-fit: cover;
+      }
+    }
+
+    .vid-gal {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding-top: 10rem;
+
+      @media only screen and (max-width: 575px) {
+        padding-top: 5rem;
+      }
+    }
+  }
+}

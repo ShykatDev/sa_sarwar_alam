@@ -1,0 +1,9 @@
+export { default as Home } from "./Homepage";
+export { default as About } from "./Aboutpage";
+export { default as Education } from "./Education";
+export { default as Global } from "./GlobalExp.jsx";
+export { default as Galary } from "./Galary.jsx";
+export { default as News } from "./News.jsx";
+export { default as Testimonial } from "./Testimonial.jsx";
+export { default as Blogs } from "./Blogs.jsx";
+export { default as Contact } from "./Contact.jsx";

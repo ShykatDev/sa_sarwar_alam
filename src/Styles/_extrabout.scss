@@ -1,0 +1,21 @@
+#extraAB {
+  background-image: url("../Assets/extraab.png");
+  background-position: center;
+  background-size: cover;
+  h1 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: wheat;
+  }
+  p {
+    color: rgb(230, 230, 230);
+    line-height: 2rem;
+  }
+
+  @media only screen and (max-width: 767px) {
+    background-image: url("../Assets/extraabmob.png");
+  }
+  @media only screen and (max-width: 575px) {
+    background-image: url("../Assets/extraabmob.png");
+  }
+}
